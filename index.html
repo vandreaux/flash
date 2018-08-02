@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donovan Coley</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <info style="display: none;">file:///Volumes/FLASH%2064GB/file/site/index.html</info>
+</head>
+<body>
+    <!--
+ <a href="/home">Home</a>
+ <a href="/work">Work</a>
+	-->
+    <p id="time"></p>
+    <!--
+ <button onclick="toggleMessage()">Click Here</button>
+ 	-->
+    <p id="hiddenMessage" style="display:none">You are going on a cruise!</p>
+</body>
+<footer>
+    <p id="hiddenFoot" style="display:none">Foot</p>
+</footer>
+<button onclick="homeWork()">Where are you?</button>
+<p id="homeMsg">You are at home. Feel's good to be back!</p>
+<p id="workMsg">You are at work. Feel's good to be paid!</p>
+<!-- 
+Show current time and date
+	https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_current -->
+<p id="demo"></p>
+<think style="display:none">
+    home . work . tour
+</think>
+<script>
+// var d = new Date();
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</html>
